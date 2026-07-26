@@ -1,0 +1,5 @@
+venv/
+__pycache__/
+.ipynb_checkpoints/
+my-project-ecommerce-503500-812498c2ccf1.json
+my-project-ecommerce1-a9cefc290e72.json
