@@ -12,10 +12,21 @@ Using advanced SQL aggregation, the dataset is transformed from raw event-level 
 * **Behavioral Features:** Action counters representing key funnel milestones (`view_item`, `add_to_cart`, `begin_checkout`).
 * **Target Variable (`target_has_purchased`):** Binary classification target indicating whether a user completed at least one purchase (`1`) or not (`0`).
 
+---
+
+## 🚀 Live Demo & Web Application
+> A machine learning web application built with Streamlit that predicts user conversion likelihood in real-time based on session behavior and demographics, incorporating insights from exploratory analysis (including top-performing countries).
+
+* Try out the live application here: **[E-commerce Conversion Predictor App](https://bqecommerceproject-up6hblseqvj8tggchxdfjt.streamlit.app/)**
+
+---
+
 ## 🛠️ Tech Stack & Tools
 * **SQL / Google BigQuery:** Data extraction, querying, and aggregation of nested/repeated structures.
 * **Python:** Data manipulation and Exploratory Data Analysis (EDA).
 * **Pandas & NumPy:** Data preprocessing and feature engineering.
+* **Scikit-Learn:** Machine Learning model training and inference.
+* **Streamlit:** Web application framework and UI deployment.
 * **Git & GitHub:** Version control and repository management.
 * **VS Code:** Development environment.
 
@@ -23,12 +34,14 @@ Using advanced SQL aggregation, the dataset is transformed from raw event-level 
 ```text
 bq_ecommerce_project/
 │
-├── data/                    # Dataset directory (raw & processed)
+├── data/                  # Dataset directory (raw & processed)
 │   └── ecommerce_users_raw.csv
 │
-├── notebooks/               # Jupyter Notebooks for EDA and modeling
+├── notebooks/             # Jupyter Notebooks for EDA and modeling
 │   └── .ipynb
 │
-├── .gitignore               # Excluded sensitive files and virtual environments
-├── requirements.txt         # Project dependencies
-└── README.md                # Project documentation
+├── app.py                 # Main Streamlit web application
+├── model.pkl              # Trained machine learning model
+├── .gitignore             # Excluded sensitive files and virtual environments
+├── requirements.txt       # Project dependencies
+└── README.md              # Project documentation
