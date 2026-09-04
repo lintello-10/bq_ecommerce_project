@@ -68,8 +68,12 @@ weighted avg       0.99      0.99      0.99     15885
 ---
 
 ## 📁 Project Structure
-```text
+
 bq_ecommerce_project/
+│
+├── assets/                # Images for README (ROC curve, feature importance)
+│   ├── roc_curve.png
+│   └── feature_importance.png
 │
 ├── data/                  # Dataset directory (raw & processed)
 │   └── ecommerce_users_raw.csv
