@@ -50,6 +50,8 @@ Using advanced SQL aggregation, the dataset is transformed from raw event-level 
 
 ![ROC Curve](https://github.com/lintello-10/bq_ecommerce_project/blob/master/src/ROC.png)
 
+### 💡 Model Evaluation Note
+Due to the natural characteristics of e-commerce user behavior, the dataset exhibits a strong **class imbalance** (the vast majority of users browse without purchasing). While the overall accuracy is high, it is primarily driven by the majority class (non-buyers). Therefore, metrics from the classification report—such as precision, recall, and the F1-score for actual buyers (Class 1)—alongside the ROC curve, provide a much more rigorous and realistic evaluation of the model's true predictive performance.
 ---
 
 ![Feature Importance](https://github.com/lintello-10/bq_ecommerce_project/blob/master/src/output.png)
