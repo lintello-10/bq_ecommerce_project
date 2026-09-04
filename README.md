@@ -34,6 +34,15 @@ Using advanced SQL aggregation, the dataset is transformed from raw event-level 
 
 ---
 
+### 🛠️ Tech Stack & Tools
+* **SQL / Google BigQuery:** Data extraction, querying, and aggregation of nested/repeated structures.
+* **Python:** Data manipulation and Exploratory Data Analysis (EDA).
+* **Pandas & NumPy:** Data preprocessing and feature engineering.
+* **Scikit-Learn:** Machine Learning model training and inference.
+* **Streamlit:** Web application framework and UI deployment.
+* **Git & GitHub:** Version control and repository management.
+* **VS Code:** Development environment.
+
 ### 📈 Model Visualizations
 <div align="center">
 
@@ -59,18 +68,6 @@ Using advanced SQL aggregation, the dataset is transformed from raw event-level 
 weighted avg       0.99      0.99      0.99     15885
 ```
 ---
-
-### 🛠️ Tech Stack & Tools
-* **SQL / Google BigQuery:** Data extraction, querying, and aggregation of nested/repeated structures.
-* **Python:** Data manipulation and Exploratory Data Analysis (EDA).
-* **Pandas & NumPy:** Data preprocessing and feature engineering.
-* **Scikit-Learn:** Machine Learning model training and inference.
-* **Streamlit:** Web application framework and UI deployment.
-* **Git & GitHub:** Version control and repository management.
-* **VS Code:** Development environment.
-
----
-
 ### 📁 Project Structure
 ```text
 bq_ecommerce_project/
@@ -90,3 +87,4 @@ bq_ecommerce_project/
 ├── .gitignore                     # Excluded sensitive files and virtual environments
 ├── requirements.txt               # Project Python dependencies
 └── README.md                      # Project documentation
+```
