@@ -40,7 +40,7 @@ Using advanced SQL aggregation, the dataset is transformed from raw event-level 
 
 | **ROC Curve** | **Feature Importance** |
 | :---: | :---: |
-| ![ROC Curve](assets/roc_curve.png) | ![Feature Importance](assets/feature_importance.png) |
+| ![ROC Curve](https://github.com/lintello-10/bq_ecommerce_project/blob/master/src/ROC.png) | ![Feature Importance](https://github.com/lintello-10/bq_ecommerce_project/blob/master/src/output.png) |
 
 ---
 
@@ -83,3 +83,4 @@ bq_ecommerce_project/
 ├── .gitignore             # Excluded sensitive files and virtual environments
 ├── requirements.txt       # Project dependencies
 └── README.md              # Project documentation
+```
