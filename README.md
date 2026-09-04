@@ -54,7 +54,7 @@ Using advanced SQL aggregation, the dataset is transformed from raw event-level 
     accuracy                           0.99     15885
    macro avg       0.82      0.84      0.83     15885
 weighted avg       0.99      0.99      0.99     15885
-
+```
 ---
 
 ## 🛠️ Tech Stack & Tools
