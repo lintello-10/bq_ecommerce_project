@@ -25,7 +25,7 @@
 This project focuses on extracting, processing, and analyzing user behavior data from a large-scale Google Analytics 4 (GA4) e-commerce dataset hosted on Google Cloud BigQuery. The ultimate goal is to build a robust Machine Learning pipeline to predict whether a user will complete a purchase based on their browsing and interaction patterns.
 
 ### ✨ Dataset & Feature Engineering
-The raw data is queried directly from Google Analytics 4 public tables (`bigquery-public-data.ga4_obfuscated_sample_ecommerce`). 
+The raw data is queried directly from Google Analytics 4 public tables (`bigquery-public-data.ga4_obfuscated_sample_ecommerce`).  
 Using advanced SQL aggregation, the dataset is transformed from raw event-level rows into a clean, user-centric dataframe (`79,421 rows x 8 columns`), where each row represents a unique user profile (`user_pseudo_id`).
 
 * **Contextual Features:** Device category (`device.category`), geographical location (`geo.country`), and traffic medium (`traffic_source.medium`).
@@ -43,16 +43,18 @@ Using advanced SQL aggregation, the dataset is transformed from raw event-level 
 * **Git & GitHub:** Version control and repository management.
 * **VS Code:** Development environment.
 
+---
+
 ### 📈 Model Visualizations
 <div align="center">
 
- 
- ![ROC Curve](https://github.com/lintello-10/bq_ecommerce_project/blob/master/src/ROC.png) 
- 
- ---
- 
- ![Feature Importance](https://github.com/lintello-10/bq_ecommerce_project/blob/master/src/output.png) 
- 
+![ROC Curve](https://github.com/lintello-10/bq_ecommerce_project/blob/master/src/ROC.png)
+
+---
+
+![Feature Importance](https://github.com/lintello-10/bq_ecommerce_project/blob/master/src/output.png)
+
+</div>
 
 ---
 
@@ -87,4 +89,3 @@ bq_ecommerce_project/
 ├── .gitignore                     # Excluded sensitive files and virtual environments
 ├── requirements.txt               # Project Python dependencies
 └── README.md                      # Project documentation
-```
