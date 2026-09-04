@@ -68,7 +68,7 @@ weighted avg       0.99      0.99      0.99     15885
 ---
 
 ## 📁 Project Structure
-
+```text
 bq_ecommerce_project/
 │
 ├── assets/                # Images for README (ROC curve, feature importance)
@@ -86,4 +86,4 @@ bq_ecommerce_project/
 ├── .gitignore             # Excluded sensitive files and virtual environments
 ├── requirements.txt       # Project dependencies
 └── README.md              # Project documentation
-
+```
