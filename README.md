@@ -82,4 +82,4 @@ bq_ecommerce_project/
 ├── .gitignore             # Excluded sensitive files and virtual environments
 ├── requirements.txt       # Project dependencies
 └── README.md              # Project documentation
-```
+
