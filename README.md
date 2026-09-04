@@ -71,23 +71,22 @@ weighted avg       0.99      0.99      0.99     15885
 
 ---
 
-## 📁 Project Structure
+### 📁 Project Structure
 ```text
-    bq_ecommerce_project/
-    │
-    ├── assets/                        # Images for README (ROC curve, feature importance)
-    │   ├── roc_curve.png              # Model ROC curve evaluation artifact
-    │   └── feature_importance.png     # XGBoost feature importance chart
-    │
-    ├── data/                          # Dataset directory (raw & processed)
-    │   └── ecommerce_users_raw.csv    # Extracted Google Analytics 4 user dataset
-    │
-    ├── notebooks/                     # Jupyter Notebooks for EDA and modeling
-    │   └── .ipynb                     # Exploratory Data Analysis & pipeline training
-    │
-    ├── app.py                         # Main Streamlit web application interface
-    ├── model.pkl                      # Trained machine learning pipeline model (.pkl)
-    ├── .gitignore                     # Excluded sensitive files and virtual environments
-    ├── requirements.txt               # Project Python dependencies
-    └── README.md                      # Project documentation
- ```
+bq_ecommerce_project/
+│
+├── assets/                        # Images for README (ROC curve, feature importance)
+│   ├── roc_curve.png              # Model ROC curve evaluation artifact
+│   └── feature_importance.png     # XGBoost feature importance chart
+│
+├── data/                          # Dataset directory (raw & processed)
+│   └── ecommerce_users_raw.csv    # Extracted Google Analytics 4 user dataset
+│
+├── notebooks/                     # Jupyter Notebooks for EDA and modeling
+│   └── .ipynb                     # Exploratory Data Analysis & pipeline training
+│
+├── app.py                         # Main Streamlit web application interface
+├── model.pkl                      # Trained machine learning pipeline model (.pkl)
+├── .gitignore                     # Excluded sensitive files and virtual environments
+├── requirements.txt               # Project Python dependencies
+└── README.md                      # Project documentation
