@@ -1,7 +1,6 @@
-<<<<<<< HEAD
 <div align="center">
 
-# 🛒 GA4 E-Commerce User Behavior & Purchase Prediction
+### 🛒 GA4 E-Commerce User Behavior & Purchase Prediction
 
 **An end-to-end data science pipeline analyzing Google Analytics 4 data to predict user purchase intent.**  
 *Built with BigQuery, Scikit-Learn, XGBoost, and Streamlit.*
@@ -22,7 +21,7 @@
 
 ---
 
-## 📌 Project Overview
+### 📌 Project Overview
 This project focuses on extracting, processing, and analyzing user behavior data from a large-scale Google Analytics 4 (GA4) e-commerce dataset hosted on Google Cloud BigQuery. The ultimate goal is to build a robust Machine Learning pipeline to predict whether a user will complete a purchase based on their browsing and interaction patterns.
 
 ### ✨ Dataset & Feature Engineering
@@ -57,7 +56,7 @@ weighted avg       0.99      0.99      0.99     15885
 ```
 ---
 
-## 🛠️ Tech Stack & Tools
+### 🛠️ Tech Stack & Tools
 * **SQL / Google BigQuery:** Data extraction, querying, and aggregation of nested/repeated structures.
 * **Python:** Data manipulation and Exploratory Data Analysis (EDA).
 * **Pandas & NumPy:** Data preprocessing and feature engineering.
