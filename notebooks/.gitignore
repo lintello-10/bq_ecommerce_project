@@ -5,3 +5,4 @@ my-project-ecommerce-503500-812498c2ccf1.json
 my-project-ecommerce1-a9cefc290e72.json
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "my-project-ecommerce1-a9cefc290e72.json"
 notebooks/config.py
+.json
