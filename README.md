@@ -73,21 +73,17 @@ weighted avg       0.99      0.99      0.99     15885
 
 ## 📁 Project Structure
 ```text
-       bq_ecommerce_project/
-       │
-       ├── assets/                # Images for README (ROC curve, feature importance)
-       │   ├── roc_curve.png
-       │   └── feature_importance.png
-       │
-       ├── data/                  # Dataset directory (raw & processed)
-       │   └── ecommerce_users_raw.csv
-       │
-       ├── notebooks/             # Jupyter Notebooks for EDA and modeling
-       │   └── .ipynb
-       │
-       ├── app.py                 # Main Streamlit web application
-       ├── model.pkl              # Trained machine learning model
-       ├── .gitignore             # Excluded sensitive files and virtual environments
-       ├── requirements.txt       # Project dependencies
-       └── README.md              # Project documentation
-       ```
+bq_ecommerce_project/
+├── assets/                
+│   ├── roc_curve.png
+│   └── feature_importance.png
+├── data/                  
+│   └── ecommerce_users_raw.csv
+├── notebooks/             
+│   └── .ipynb
+├── app.py                 
+├── model.pkl              
+├── .gitignore             
+├── requirements.txt       
+└── README.md
+ ```
