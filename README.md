@@ -27,19 +27,6 @@ This repository contains the **monolithic version** of the project. In this vers
 
 This architecture is intentionally simple and suitable for demonstrating the complete workflow in one deployable Streamlit application:
 
-```text
-User
-  |
-  v
-Streamlit interface
-  |
-  v
-Local XGBoost pipeline (.pkl)
-  |
-  v
-Purchase prediction
-```
-
 The current version does **not** include a FastAPI service, a separate backend, or Docker containerisation.
 
 ## Separate API-based version
@@ -48,18 +35,22 @@ A second, separate project is dedicated to evolving this solution into a service
 
 In that architecture, the Streamlit application will act as the frontend and call a FastAPI service for inference:
 
-```text
-User
-  |
-  v
-Streamlit frontend
-  |
-  | HTTP request
-  v
-FastAPI backend
-  |
-  v
-Model inference
+```mermaid
+flowchart LR
+    subgraph V1["Version 1 - Current monolithic application"]
+        U1["User"] --> S1["Streamlit interface"]
+        S1 --> M1["XGBoost pipeline<br/>(.pkl loaded locally)"]
+        M1 --> P1["Purchase prediction"]
+    end
+
+    subgraph V2["Version 2 - Separate API project"]
+        U2["User"] --> S2["Streamlit frontend"]
+        S2 -->|"HTTP request"| F2["FastAPI backend"]
+        F2 --> M2["Model inference"]
+        M2 --> R2["Prediction response"]
+        R2 --> S2
+        D2["Docker container"] -.-> F2
+    end
 ```
 
 FastAPI, Docker, and the API-to-Streamlit integration belong to that separate project and are not part of the implementation documented in this repository.
@@ -253,3 +244,4 @@ The BigQuery cells require valid Google Cloud authentication and access to the p
 ## License
 
 No license file is currently included in this repository.
+
