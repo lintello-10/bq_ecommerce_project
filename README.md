@@ -86,6 +86,22 @@ The dataset is strongly imbalanced: non-purchasing users substantially outnumber
 
 The notebook reports a best cross-validation ROC-AUC of **0.9944** and a test ROC-AUC of approximately **0.9942** for the trained pipeline. These figures describe the experiments recorded in the notebook and are not a guarantee for new production data.
 
+## Model visualizations
+
+The repository includes the main visual outputs generated during model evaluation and interpretation.
+
+### ROC curve
+
+![ROC curve](src/ROC.png)
+
+### Confusion matrix
+
+![Confusion matrix](src/Confusion_Matrix.png)
+
+### Feature importance
+
+![XGBoost feature importance](src/output.png)
+
 ## Technology stack
 
 The implementation uses:
@@ -192,4 +208,3 @@ The BigQuery cells require valid Google Cloud authentication and access to the p
 ## License
 
 No license file is currently included in this repository.
-
