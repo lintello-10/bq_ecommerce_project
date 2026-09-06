@@ -21,6 +21,51 @@ An end-to-end machine learning project that transforms e-commerce activity data 
 
 ---
 
+## Current architecture: monolithic version
+
+This repository contains the **monolithic version** of the project. In this version, the trained machine learning pipeline is stored directly in the Streamlit project and loaded by `app.py` at runtime. The user interface and the inference logic therefore run together in the same application.
+
+This architecture is intentionally simple and suitable for demonstrating the complete workflow in one deployable Streamlit application:
+
+```text
+User
+  |
+  v
+Streamlit interface
+  |
+  v
+Local XGBoost pipeline (.pkl)
+  |
+  v
+Purchase prediction
+```
+
+The current version does **not** include a FastAPI service, a separate backend, or Docker containerisation.
+
+## Separate API-based version
+
+A second, separate project is dedicated to evolving this solution into a service-oriented architecture. That project covers the API and containerisation layer needed to expose the model as a backend.
+
+In that architecture, the Streamlit application will act as the frontend and call a FastAPI service for inference:
+
+```text
+User
+  |
+  v
+Streamlit frontend
+  |
+  | HTTP request
+  v
+FastAPI backend
+  |
+  v
+Model inference
+```
+
+FastAPI, Docker, and the API-to-Streamlit integration belong to that separate project and are not part of the implementation documented in this repository.
+
+---
+
 ## Project overview
 
 This project studies user behaviour in an e-commerce funnel and predicts whether a user is likely to complete a purchase.
