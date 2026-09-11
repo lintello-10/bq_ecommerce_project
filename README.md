@@ -14,7 +14,7 @@
   <a href="#-license"><img src="https://img.shields.io/badge/License-None-lightgrey?style=for-the-badge" alt="License"></a>
 </p>
 
-**[🚀 Live App](https://bqecommerceproject-up6hblseqvj8tggchxdfjt.streamlit.app/) • [🏗️ Architecture](#-architecture) • [⚙️ Getting Started](#-getting-started) • [📈 Results](#evaluation-snapshot)**
+**[🚀 Live App](https://bqecommerceproject-9lwwgccusybdkxrhcame8m.streamlit.app/) • [🏗️ Architecture](#-architecture) • [⚙️ Getting Started](#-getting-started) • [📈 Results](#evaluation-snapshot)**
 
 </div>
 
