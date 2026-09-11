@@ -10,7 +10,6 @@ seaborn
 streamlit
 uvicorn
 requests
-
 ipython
 ipykernel
 pillow
