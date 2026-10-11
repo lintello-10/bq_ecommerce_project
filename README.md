@@ -48,6 +48,12 @@ The work is organised into two complementary parts:
 1. **Analysis and training** — the notebook queries the public Google Analytics 4 sample e-commerce dataset, aggregates event-level activity at user level, explores conversion behaviour, trains and evaluates an XGBoost model, and exports the fitted pipeline.
 2. **Interactive inference** — the Streamlit application loads the exported pipeline and lets a user simulate a session before requesting a purchase prediction and probability.
 
+---
+### 🚀 Live App
+
+[Live App streamlit](https://bqecommerceproject-9lwwgccusybdkxrhcame8m.streamlit.app/)
+
+---
 > [!NOTE]
 > The repository contains the trained artefacts and a local CSV export, so the dashboard itself performs inference from the saved model. It does not query BigQuery when the app is running.
 
