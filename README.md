@@ -49,11 +49,23 @@ The work is organised into two complementary parts:
 2. **Interactive inference** — the Streamlit application loads the exported pipeline and lets a user simulate a session before requesting a purchase prediction and probability.
 
 ---
-### 🚀 Live App
 
-[Live App streamlit](https://bqecommerceproject-9lwwgccusybdkxrhcame8m.streamlit.app/)
+## 🚀 Live Demonstration
 
----
+| Component | URL / Access |
+| :--- | :--- |
+| **Streamlit Dashboard** | [**Open the live app →**](https://bqecommerceproject-9lwwgccusybdkxrhcame8m.streamlit.app/) |
+
+<br>
+
+<div align="center">
+
+<img src="Screenshot 2026-11-04 210907.png" alt="E-commerce Conversion Prediction Dashboard" width="100%" style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+
+</div>
+
+<br>
+
 > [!NOTE]
 > The repository contains the trained artefacts and a local CSV export, so the dashboard itself performs inference from the saved model. It does not query BigQuery when the app is running.
 
